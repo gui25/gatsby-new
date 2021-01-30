@@ -15,7 +15,7 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
     <SEO title="Segunda publicação" />
     <h1>Gatsby suporta TypeScript por padrão!</h1>
     <p style={{textAlign: `left`}}>
-      Isso significa que você pode criar e escrever em .ts/.tsx files para as suas paginas, componentes etc. 
+      Isso significa que você pode criar e escrever em .ts/.tsx files para as suas paginas, componentes etc.<br/>
       <br/> Só atenção com os arquivos gatsby-*.js
       (por exemplo gatsby-node.js) pois eles ainda não suportam TypeScript.
     <br/>
