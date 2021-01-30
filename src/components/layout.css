@@ -7,6 +7,15 @@ title{
   display: none !important;
 }
 
+script {
+  display: none !important;
+}
+
+style {
+  display: none !important;
+}
+
+
 html {
   
   -ms-text-size-adjust: 100%;
