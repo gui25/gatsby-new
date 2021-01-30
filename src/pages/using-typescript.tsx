@@ -1,7 +1,6 @@
 // If you don't want to use TypeScript you can delete this file!
 import React from "react"
 import { PageProps, Link, graphql } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -13,29 +12,25 @@ type DataProps = {
 
 const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   <Layout>
-    <SEO title="Using TypeScript" />
-    <h1>Gatsby supports TypeScript by default!</h1>
-    <p>
-      This means that you can create and write <em>.ts/.tsx</em> files for your
-      pages, components etc. Please note that the <em>gatsby-*.js</em> files
-      (like gatsby-node.js) currently don't support TypeScript yet.
+    <SEO title="Segunda publicação" />
+    <h1>Gatsby suporta TypeScript por padrão!</h1>
+    <p style={{textAlign: `left`}}>
+      Isso significa que você pode criar e escrever em .ts/.tsx files para as suas paginas, componentes etc. 
+      <br/> Só atenção com os arquivos gatsby-*.js
+      (por exemplo gatsby-node.js) pois eles ainda não suportam TypeScript.
+    <br/>
+    <br/>
+      Essa publicação: "Segunda publicação" que foi feita a built em: {" "}
+      {data.site.buildTime} foi criada com TypeScript.
     </p>
     <p>
-      For type checking you'll want to install <em>typescript</em> via npm and
-      run <em>tsc --init</em> to create a <em>.tsconfig</em> file.
-    </p>
-    <p>
-      You're currently on the page "{path}" which was built on{" "}
-      {data.site.buildTime}.
-    </p>
-    <p>
-      To learn more, head over to our{" "}
+      Se quiser aprender mais, pode ler a documentação do Gatysby com TypeScript aqui:{" "}
       <a href="https://www.gatsbyjs.com/docs/typescript/">
-        documentation about TypeScript
+        Documentação sobre Typescript
       </a>
       .
     </p>
-    <Link to="/">Go back to the homepage</Link>
+    <Link to="/">Volte para a Página inicial</Link>
   </Layout>
 )
 

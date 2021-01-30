@@ -6,10 +6,15 @@ import SEO from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <SEO title="Post 1" />
+    <h1>Bem vindo a primeira publicação.</h1>
+    <p  style={{textAlign: `left`}}>
+    Eu me chamo Guilherme Bernardo Silva esse é o meu primeiro Blog em Gatsby, 
+    eu sou um desenvolvedor web que ama estudar, aprender novas técnologias, eu amo criar aplicações 
+    e é o que eu pretendo me esforçar para ser melhor sempre.
+    
+    </p>
+    <Link to="/">Volte para a Página inicial</Link>
   </Layout>
 )
 
