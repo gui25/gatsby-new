@@ -1,4 +1,14 @@
+* {
+  display: flex !important;
+  flex-direction: column;
+}
+
+title{
+  display: none !important;
+}
+
 html {
+  
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font: 112.5%/1.45em georgia, serif, sans-serif;
@@ -6,6 +16,7 @@ html {
   overflow-y: scroll;
 }
 body {
+  
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -31,7 +42,9 @@ menu,
 nav,
 section,
 summary {
-  display: block;
+  display: flex !important;
+  text-align: center;
+  align-items: center;
 }
 audio,
 canvas,
@@ -109,15 +122,6 @@ sup {
   top: -0.5em;
 }
 img {
-  border-style: none;
-  max-width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
   margin-bottom: 1.45rem;
 }
 svg:not(:root) {
