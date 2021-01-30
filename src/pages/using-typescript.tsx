@@ -30,7 +30,7 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
       </a>
       .
     </p>
-    <Link to="/">Volte para a Página inicial</Link>
+    <Link className="btn"  to="/"><span className="gradient"></span>Volte para a Página inicial</Link>
   </Layout>
 )
 

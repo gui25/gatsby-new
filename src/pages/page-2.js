@@ -14,7 +14,7 @@ const SecondPage = () => (
     e é o que eu pretendo me esforçar para ser melhor sempre.
     
     </p>
-    <Link to="/">Volte para a Página inicial</Link>
+    <Link className="btn"  to="/"><span className="gradient"></span>Volte para a Página inicial</Link>
   </Layout>
 )
 
