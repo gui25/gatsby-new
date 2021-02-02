@@ -9,7 +9,8 @@ module.exports = {
           resolve: 'gatsby-plugin-i18n',
           options: {        
             langKeyDefault: 'en',
-            useLangKeyLayout: false
+            useLangKeyLayout: false,
+            pagesPaths: [ './src/page-2.en.js', './src/page-2.pt.js' ]
           }
         },
     `gatsby-plugin-react-helmet`,
