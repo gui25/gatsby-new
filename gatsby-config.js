@@ -5,6 +5,13 @@ module.exports = {
     author: `Guilherme Bernardo Silva`,
   },
   plugins: [
+      {
+          resolve: 'gatsby-plugin-i18n',
+          options: {        
+            langKeyDefault: 'en',
+            useLangKeyLayout: false
+          }
+        },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
